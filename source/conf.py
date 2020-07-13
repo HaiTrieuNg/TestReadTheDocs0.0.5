@@ -82,3 +82,4 @@ latex_elements = {
         \usepackage[defaultsans]{lato}
         \usepackage{inconsolata}
     ''',
+}
