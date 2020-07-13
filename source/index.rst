@@ -1,3 +1,6 @@
+.. header::
+  :image:: BeeFi_Logo.png
+
 Welcome
 =============
 
