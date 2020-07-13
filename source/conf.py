@@ -84,6 +84,4 @@ latex_elements = {
     ''',
 }
 
-latex_documents = [
-  (master_doc, 'Test.tex','Doc 1', u'Doc 2')
-]
+latex_logo = 'BeeFi_Logo.png'
