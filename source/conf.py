@@ -83,3 +83,7 @@ latex_elements = {
         \usepackage{inconsolata}
     ''',
 }
+
+latex_documents = [
+  (master_doc, 'Test.tex','Doc 1', u'Doc 2')
+]
