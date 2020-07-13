@@ -1,6 +1,3 @@
-.. header::
-  :image:: BeeFi_Logo.png
-
 Doc 1
 =============
 
