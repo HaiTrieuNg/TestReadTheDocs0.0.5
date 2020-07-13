@@ -70,6 +70,9 @@ html_css_files = [
 ]
 
 latex_elements = {
+     'maketitle': r'''
+     \small Created on : Octorber, 2017
+     ''',
 # The paper size ('letterpaper' or 'a4paper').
     'papersize': 'letterpaper',
 
