@@ -14,7 +14,15 @@ import os
 import sys
 sys.path.insert(0, os.path.abspath('..'))
 
-
+extensions = ['sphinx.ext.autodoc',
+    'sphinx.ext.doctest',
+    'sphinx.ext.intersphinx',
+    'sphinx.ext.todo',
+    'sphinx.ext.coverage',
+    'sphinx.ext.mathjax',
+    'sphinx.ext.ifconfig',
+    'sphinx.ext.viewcode',
+    'sphinx.ext.githubpages']
 # -- Project information -----------------------------------------------------
 
 project = 'Test'
@@ -88,3 +96,9 @@ latex_elements = {
 }
 
 latex_logo = 'BeeFi_Logo.png'
+
+latex_documents = [
+    (master_doc, 'test.tex', 'Doc 1',
+     'Doc 2')
+]
+
