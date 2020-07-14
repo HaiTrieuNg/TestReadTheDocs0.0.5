@@ -100,7 +100,9 @@ latex_elements = {
     \documentclass{article}
     \usepackage{fancyhdr}
     \pagestyle{fancy}
-    \lhead{\includegraphics[scale=0.7]{BeeFi_Logo.png}}
+    \fancyhf{}
+    \fancyhead[R]{\thepage}
+    \lhead{A small logo:\includegraphics[scale=1.0]{BeeFi_Logo.png}}
     \chead{}
     \rhead{}
     \lfoot{}
