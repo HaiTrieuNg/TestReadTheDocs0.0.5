@@ -83,13 +83,12 @@ latex_elements = {
      'maketitle': r'''
      \small Created on : May, 2020
      
-     \documentclass{article}
      \usepackage{eso-pic,graphicx}
-     \begin{document}
+     \begin{figure}[h]
      some text
      \includegraphics[scale=1.0]{BeeFi_Logo.png}
-     \AddToShipoutPictureBG*{\includegraphics[width=\paperwidth,height=\paperheight]{BeeFi_Logo.png}};  
-     \end{document}
+     \AddToShipoutPictureBG*{\includegraphics[width=\paperwidth,height=\paperheight]{bg.jpg}};  
+     \end{figure}
      ''',
     
     
