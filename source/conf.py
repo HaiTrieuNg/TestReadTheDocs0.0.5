@@ -89,9 +89,7 @@ latex_elements = {
      \includegraphics[scale=1.0]{BeeFi_Logo.png}
      \end{figure}
      
-     \usepackage{eso-pic,graphicx}
-     \usepackage[top=0cm, bottom=0cm, outer=0cm, inner=0cm]{geometry}
-     \AddToShipoutPictureBG*{\includegraphics[width=\paperwidth,height=\paperheight]{BeeFi_Logo.png}};  
+
 
      ''',
     
