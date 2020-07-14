@@ -84,11 +84,9 @@ latex_elements = {
      \small Created on : May, 2020
      
      \usepackage{eso-pic,graphicx}
-     \begin{figure}[h]
-     some text
      \includegraphics[scale=1.0]{BeeFi_Logo.png}
-     \AddToShipoutPictureBG*{\includegraphics[width=\paperwidth,height=\paperheight]{bg.jpg}};  
-     \end{figure}
+     \AddToShipoutPictureBG*{\includegraphics[width=\paperwidth,height=\paperheight]{BeeFi_Logo.png}};  
+
      ''',
     
     
