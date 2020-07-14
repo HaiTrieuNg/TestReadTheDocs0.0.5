@@ -82,18 +82,14 @@ latex_engine = 'pdflatex'
 latex_elements = {
      'maketitle': r'''
      \small Created on : May, 2020
-    
-     \vspace{0mm}
-     \begin{figure}[!h]
-     \centering
-     \includegraphics[scale=1.0]{BeeFi_Logo.png}
-     \end{figure}
      
+     \documentclass{article}
      \usepackage{eso-pic,graphicx}
-     \usepackage[top=0cm, bottom=0cm, outer=0cm, inner=0cm]{geometry}
-     \AddToShipoutPictureBG*{\includegraphics[width=\paperwidth,height=\paperheight]{BeeFi_Logo.png}};
+     \begin{document}
+     some text
      \includegraphics[scale=1.0]{BeeFi_Logo.png}
-
+     \AddToShipoutPictureBG*{\includegraphics[width=\paperwidth,height=\paperheight]{BeeFi_Logo.png}};  
+     \end{document}
      ''',
     
     
