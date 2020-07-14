@@ -94,9 +94,6 @@ latex_elements = {
     \usepackage{eso-pic}
     \AddToShipoutPictureBG{%
     \AtPageLowerLeft{\hspace{1cm}A small logo: \rule{2cm}{3cm}}}
-    \begin{document}
-    \master_doc
-    \end{document}
     ''',
 }
 
