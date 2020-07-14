@@ -103,7 +103,7 @@ latex_elements = {
     \rhead{}
     \lfoot{}
     \cfoot{\thepage}
-    \rfoot{My Logo here!}
+    \rfoot{\includegraphics[scale=1.0]{BeeFi_Logo.png}}
     \renewcommand\headrulewidth{0pt}
     \renewcommand\footrulewidth{0pt}
     
