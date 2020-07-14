@@ -94,7 +94,7 @@ latex_elements = {
     'preamble': r'''
     \usepackage{eso-pic}
     \AddToShipoutPictureBG{%
-    \AtPageUpperLeft{\put(50,-50)\includegraphics[scale=0.7]{BeeFi_Logo.png}}}
+    \AtPageUpperLeft{\begin{figure}[t]{0.4\linewidth}\includegraphics[scale=0.7]{BeeFi_Logo.png}\end{figure}}}
     
     ''',
 }
