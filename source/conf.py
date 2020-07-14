@@ -91,7 +91,7 @@ latex_elements = {
      
      \usepackage{eso-pic,graphicx}
      \usepackage[top=0cm, bottom=0cm, outer=0cm, inner=0cm]{geometry}
-     \AddToShipoutPictureBG*{\includegraphics[width=\paperwidth,height=\paperheight]{BeeFi_Logo.png}};  
+     \AddToShipoutPictureBG*{\centering\includegraphics[width=\paperwidth,height=\paperheight]{BeeFi_Logo.png}};  
 
      ''',
     
@@ -103,9 +103,9 @@ latex_elements = {
     \fancyhf{}
     \fancyhead[R]{\thepage}
     
-   \usepackage{eso-pic,lipsum}
-   \AddToShipoutPictureBG{%
-   \AtPageLowerLeft{\hspace{1cm}A small logo: \includegraphics[scale=0.7]{BeeFi_Logo.png}}
+    \usepackage{eso-pic,lipsum}
+    \AddToShipoutPictureBG{%
+    \AtPageLowerLeft{\hspace{1cm}A small logo: \includegraphics[scale=0.7]{BeeFi_Logo.png}}
     ''',
     
 }
