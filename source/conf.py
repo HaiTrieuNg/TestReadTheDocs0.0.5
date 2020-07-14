@@ -80,36 +80,37 @@ html_css_files = [
 latex_engine = 'pdflatex'
 
 latex_elements = {
-     'maketitle': r'''
-     \small Created on : May, 2020
-     
+
+    # Logo on cover
+    'maketitle': r'''
+     \small BeeFi Technology
      \vspace{0mm}
      \begin{figure}[!h]
      \centering
      \includegraphics[scale=1.0]{BeeFi_Logo.png}
      \end{figure}
-     
-     ''',    
+     ''',
+  
+    #footer
+    #\usepackage{eso-pic}
+    #\AddToShipoutPictureBG{%
+    #\AtPageLowerLeft{\hspace{1cm}\includegraphics[scale=0.7]{BeeFi_Logo.png}}}
     
+    # background image
+    # footer logo and header logo, haven't been able to take them out of the cover page
+  
     'preamble': r'''
-    \usepackage{eso-pic}
-    \AddToShipoutPictureBG{%
-    \AtPageLowerLeft{\includegraphics[scale=0.7]{BeeFi_Logo.png}}}
-    
     \usepackage{eso-pic,graphicx,transparent}
     \AddToShipoutPictureBG*{%
     \AtPageLowerLeft{%
     \transparent{0.4}\includegraphics[width=\paperwidth,height=\paperheight]{BeeFi_Logo.png}%
     }%
     }
-   
    \usepackage{eso-pic}
    \usepackage{graphicx}
-
    \AddToShipoutPictureBG{%
-  \AtPageUpperLeft{\raisebox{-\height}{\includegraphics[width=1.5in]{BeeFi_Logo.png}}}%
+   \AtPageUpperLeft{\hspace{1cm}\raisebox{-\height}{\includegraphics[scale=0.7]{BeeFi_Logo.png}}}%
 }
-
     ''',
 }
 
