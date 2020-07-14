@@ -96,6 +96,14 @@ latex_elements = {
     \AddToShipoutPictureBG{%
     \AtPageLowerLeft{\hspace{1cm}\includegraphics[scale=0.7]{BeeFi_Logo.png}}}
     
+    \usepackage{fancyhdr}
+    \usepackage[demo]{graphicx}
+    \pagestyle{fancy}
+    \chead{\raisebox{\baselineskip}{%
+    \includegraphics[width=1.5cm,height=1.5cm,keepaspectratio]{BeeFi_Logo.png}}}
+    \setlength{\headheight}{47.0pt}
+    \addtolength{\topmargin}{-4\baselineskip}
+
     ''',
 }
 
