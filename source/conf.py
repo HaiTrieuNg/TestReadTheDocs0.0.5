@@ -88,12 +88,14 @@ latex_elements = {
      \centering
      \includegraphics[scale=1.0]{BeeFi_Logo.png}
      \end{figure}
+     
      ''',    
     
     'preamble': r'''
     \usepackage{eso-pic}
     \AddToShipoutPictureBG{%
     \AtPageLowerLeft{\hspace{1cm}A small logo: \rule{2cm}{3cm}}}
+    
     ''',
 }
 
