@@ -95,7 +95,7 @@ latex_elements = {
     \AddToShipoutPictureBG{%
     \AtPageLowerLeft{\hspace{1cm}A small logo: \rule{2cm}{3cm}}}
     \begin{document}
-    \Test
+    \master_doc
     \end{document}
     ''',
 }
