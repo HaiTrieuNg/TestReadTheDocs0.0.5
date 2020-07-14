@@ -73,20 +73,15 @@ latex_engine = 'pdflatex'
 
 latex_elements = {
      'maketitle': r'''
-     \small Created on : Octorber, 2017
+     \small Created on : May, 2020
+     
+    \vspace{0mm}
+    \begin{figure}[!h]
+    \centering
+    \includegraphics[scale=0.3]{logo.jpg}
+    \end{figure}
      ''',
-# The paper size ('letterpaper' or 'a4paper').
-    'papersize': 'letterpaper',
 
-# The font size ('10pt', '11pt' or '12pt').
-    'pointsize': '11pt',
-
-# Additional stuff for the LaTeX preamble.
-    'preamble': r'''
-        \usepackage{charter}
-        \usepackage[defaultsans]{lato}
-        \usepackage{inconsolata}
-    ''',
 }
 
 latex_logo = 'BeeFi_Logo.png'
