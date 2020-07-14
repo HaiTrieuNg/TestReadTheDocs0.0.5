@@ -77,6 +77,8 @@ html_css_files = [
     'css/theme - Copy.css',
 ]
 
+latex_engine = 'pdflatex'
+
 latex_elements = {
      'maketitle': r'''
      \small Created on : Octorber, 2017
