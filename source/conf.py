@@ -86,10 +86,10 @@ latex_elements = {
      \vspace{0mm}
      \begin{figure}[!h]
      \centering
-     \includegraphics[scale=0.3]{BeeFi_Logo.png}
+     \includegraphics[scale=1.0]{BeeFi_Logo.png}
      \end{figure}
      ''',
-
+    
 }
 
 latex_logo = 'BeeFi_Logo.png'
