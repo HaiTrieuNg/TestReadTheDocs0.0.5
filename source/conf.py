@@ -94,18 +94,7 @@ latex_elements = {
     'preamble': r'''
     \usepackage{eso-pic}
     \AddToShipoutPictureBG{%
-    \AtPageLowerLeft{\hspace{1cm}\includegraphics[scale=0.7]{BeeFi_Logo.png}}}
-    
-    \usepackage{fancyhdr}
-    \pagestyle{fancy}
-    \lhead{}
-    \chead{}
-    \rhead{}
-    \lfoot{}
-    \cfoot{\thepage}
-    \rfoot{\includegraphics[scale=1.0]{BeeFi_Logo.png}}
-    \renewcommand\headrulewidth{0pt}
-    \renewcommand\footrulewidth{0pt}
+    \AtPageLowerLeft{\put(-50,-25)\includegraphics[scale=0.7]{BeeFi_Logo.png}}}
     
     ''',
 }
