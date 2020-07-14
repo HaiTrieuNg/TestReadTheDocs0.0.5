@@ -78,7 +78,7 @@ latex_elements = {
     \vspace{0mm}
     \begin{figure}[!h]
     \centering
-    \includegraphics[scale=0.3]{logo.jpg}
+    \includegraphics[scale=0.3]{BeeFi_Logo.png}
     \end{figure}
      ''',
 
