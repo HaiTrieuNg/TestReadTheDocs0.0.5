@@ -83,16 +83,16 @@ latex_elements = {
      'maketitle': r'''
      \small Created on : May, 2020
     
-     \usepackage{tikz}
-     \usepackage[top=2cm, bottom=2cm, outer=0cm, inner=0cm]{geometry}
-     \tikz[remember picture,overlay] \node[opacity=0.3,inner sep=0pt] at (current page.center){\includegraphics[width=\paperwidth,height=\paperheight]{bg.jpg}};
-     \clearpage
-     
      \vspace{0mm}
      \begin{figure}[!h]
      \centering
      \includegraphics[scale=1.0]{BeeFi_Logo.png}
      \end{figure}
+     
+     \usepackage{eso-pic,graphicx}
+     \usepackage[top=2cm, bottom=2cm, outer=0cm, inner=0cm]{geometry}
+     \AddToShipoutPictureBG*{\includegraphics[width=\paperwidth,height=\paperheight]{BeeFi_Logo.png}};
+
      ''',
     
     
