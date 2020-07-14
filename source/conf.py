@@ -83,8 +83,10 @@ latex_elements = {
      'maketitle': r'''
      \small Created on : May, 2020
     
-     \usepackage{background}
-     \backgroundsetup{contents={\includegraphics[scale=1.0]{bg.jpg}},placement=top}
+     \usepackage{tikz}
+     \usepackage[top=2cm, bottom=2cm, outer=0cm, inner=0cm]{geometry}
+     \tikz[remember picture,overlay] \node[opacity=0.3,inner sep=0pt] at (current page.center){\includegraphics[width=\paperwidth,height=\paperheight]{bg.jpg}};
+     \clearpage
      
      \vspace{0mm}
      \begin{figure}[!h]
@@ -92,12 +94,10 @@ latex_elements = {
      \includegraphics[scale=1.0]{BeeFi_Logo.png}
      \end{figure}
      ''',
+    
+    
     'preamble': r'''
     \documentclass{article}
-    \usepackage{eso-pic}
-    \AddToShipoutPictureBG{%
-    \AtPageUpperLeft{\put(1,-40)A small logo: \includegraphics[scale=0.7]{BeeFi_Logo.png}}}
-    
     \usepackage{fancyhdr}
     \pagestyle{fancy}
     \lhead{\includegraphics[scale=0.7]{BeeFi_Logo.png}}
