@@ -82,10 +82,9 @@ latex_engine = 'pdflatex'
 latex_elements = {
      'maketitle': r'''
      \small Created on : May, 2020
-     
-     \documentclass{article}
+    
      \usepackage{background}
-     \backgroundsetup{contents={\includegraphics[width=\textwidth]{bg.jpg}},scale=1,placement=top,opacity=0.2,position={8.3cm,1cm}}
+     \backgroundsetup{contents={\includegraphics[scale=1.0]{bg.jpg}},placement=top,position={8.3cm,1cm}}
      
      \vspace{0mm}
      \begin{figure}[!h]
