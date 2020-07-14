@@ -91,7 +91,7 @@ latex_elements = {
      ''',    
     
     'preamble': r'''
-    \usepackage{eso-pic,lipsum}
+    \usepackage{eso-pic}
     \AddToShipoutPictureBG{%
     \AtPageLowerLeft{\hspace{1cm}A small logo: \rule{2cm}{3cm}}}
     ''',
