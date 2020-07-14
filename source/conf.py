@@ -83,6 +83,10 @@ latex_elements = {
      'maketitle': r'''
      \small Created on : May, 2020
      
+     \documentclass{article}
+     \usepackage{background}
+     \backgroundsetup{contents={\includegraphics[width=\textwidth]{bg.jpg}},scale=1,placement=top,opacity=0.2,position={8.3cm,1cm}}
+     
      \vspace{0mm}
      \begin{figure}[!h]
      \centering
@@ -93,7 +97,7 @@ latex_elements = {
     \documentclass{article}
     \usepackage{eso-pic}
     \AddToShipoutPictureBG{%
-    \AtPageUpperLeft{\put(0,-25)A small logo: \includegraphics[scale=0.7]{BeeFi_Logo.png}}}
+    \AtPageUpperLeft{\put(1,-40)A small logo: \includegraphics[scale=0.7]{BeeFi_Logo.png}}}
     ''',
 }
 
