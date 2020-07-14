@@ -91,18 +91,13 @@ latex_elements = {
      
      \usepackage{eso-pic,graphicx}
      \usepackage[top=0cm, bottom=0cm, outer=0cm, inner=0cm]{geometry}
-     \AddToShipoutPictureBG*{\centering\includegraphics[width=\paperwidth,height=\paperheight]{BeeFi_Logo.png}};  
+     \AddToShipoutPictureBG*{\includegraphics[width=\paperwidth,height=\paperheight]{BeeFi_Logo.png}};  
 
      ''',
     
     
     'preamble': r'''
     \documentclass{article}
-    \usepackage{fancyhdr}
-    \pagestyle{fancy}
-    \fancyhf{}
-    \fancyhead[R]{\thepage}
-    
     \usepackage{eso-pic,lipsum}
     \AddToShipoutPictureBG{%
     \AtPageLowerLeft{\hspace{1cm}A small logo: \includegraphics[scale=0.7]{BeeFi_Logo.png}}
