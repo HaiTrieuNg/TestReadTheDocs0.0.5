@@ -98,7 +98,7 @@ latex_elements = {
 latex_logo = 'BeeFi_Logo.png'
 
 latex_documents = [
-    (master_doc, 'test.tex', 'Doc 1',
-     'Doc 2')
+    (master_doc, 'test.tex', 'Test',
+     'Trieu Nguyen', 'manual' )
 ]
 
