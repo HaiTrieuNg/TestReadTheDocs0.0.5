@@ -102,6 +102,14 @@ latex_elements = {
     \transparent{0.4}\includegraphics[width=\paperwidth,height=\paperheight]{BeeFi_Logo.png}%
     }%
     }
+    
+   \usepackage{showframe}
+   \usepackage{eso-pic}
+   \usepackage{graphicx}
+
+   \AddToShipoutPictureBG{%
+  \AtPageUpperLeft{\raisebox{-\height}{\includegraphics[width=1.5in]{BeeFi_Logo.png}}}%
+}
 
     ''',
 }
