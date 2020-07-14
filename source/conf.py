@@ -84,7 +84,7 @@ latex_elements = {
      \small Created on : May, 2020
     
      \usepackage{background}
-     \backgroundsetup{contents={\includegraphics[scale=1.0]{bg.jpg}},placement=top,position={8.3cm,1cm}}
+     \backgroundsetup{contents={\includegraphics[scale=1.0]{bg.jpg}},placement=top}
      
      \vspace{0mm}
      \begin{figure}[!h]
@@ -97,7 +97,19 @@ latex_elements = {
     \usepackage{eso-pic}
     \AddToShipoutPictureBG{%
     \AtPageUpperLeft{\put(1,-40)A small logo: \includegraphics[scale=0.7]{BeeFi_Logo.png}}}
+    
+    \usepackage{fancyhdr}
+    \pagestyle{fancy}
+    \lhead{\includegraphics[scale=0.7]{BeeFi_Logo.png}}
+    \chead{}
+    \rhead{}
+    \lfoot{}
+    \cfoot{\thepage}
+    \rfoot{My Logo here!}
+    \renewcommand\headrulewidth{0pt}
+    \renewcommand\footrulewidth{0pt}
     ''',
+    
 }
 
 latex_logo = 'BeeFi_Logo.png'
