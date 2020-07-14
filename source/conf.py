@@ -96,6 +96,16 @@ latex_elements = {
     \AddToShipoutPictureBG{%
     \AtPageLowerLeft{\hspace{1cm}\includegraphics[scale=0.7]{BeeFi_Logo.png}}}
     
+    \usepackage{graphicx}
+    
+    \usepackage{fancyhdr}
+    \pagestyle{fancy}
+    
+    \usepackage{xcolor}
+    \setlength\headheight{26pt}
+    
+    \rhead{\includegraphics[width=1cm]{BeeFi_Logo.png}}
+    
     ''',
 }
 
