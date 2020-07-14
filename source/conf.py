@@ -83,8 +83,13 @@ latex_elements = {
      'maketitle': r'''
      \small Created on : May, 2020
      
-     \usepackage{eso-pic,graphicx}
+     \vspace{0mm}
+     \begin{figure}[!h]
+     \centering
      \includegraphics[scale=1.0]{BeeFi_Logo.png}
+     \end{figure}
+     
+     \usepackage{eso-pic,graphicx}
      \usepackage[top=0cm, bottom=0cm, outer=0cm, inner=0cm]{geometry}
      \AddToShipoutPictureBG*{\centering\includegraphics[width=\paperwidth,height=\paperheight]{BeeFi_Logo.png}};  
 
