@@ -89,7 +89,15 @@ latex_elements = {
      \includegraphics[scale=1.0]{BeeFi_Logo.png}
      \end{figure}
      ''',
-    
+    'preamble': r'''
+    \documentclass{article}
+    \usepackage{eso-pic,lipsum}
+    \AddToShipoutPictureBG{%
+    \AtPageLowerLeft{\hspace{1cm}A small logo: \rule{2cm}{3cm}}}
+    \begin{document}
+    \lipsum
+    \end{document}
+    ''',
 }
 
 latex_logo = 'BeeFi_Logo.png'
