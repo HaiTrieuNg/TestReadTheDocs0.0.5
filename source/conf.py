@@ -93,7 +93,7 @@ latex_elements = {
     \documentclass{article}
     \usepackage{eso-pic}
     \AddToShipoutPictureBG{%
-    \AtPageUpperLeft{A small logo: \includegraphics[scale=0.7]{BeeFi_Logo.png}}}
+    \AtPageUpperLeft{\put(0,-25)A small logo: \includegraphics[scale=0.7]{BeeFi_Logo.png}}}
     ''',
 }
 
