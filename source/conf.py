@@ -70,11 +70,6 @@ master_doc = 'index'
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
 
-
-html_css_files = [
-    'css/theme - Copy.css',
-]
-
 latex_engine = 'pdflatex'
 
 latex_elements = {
