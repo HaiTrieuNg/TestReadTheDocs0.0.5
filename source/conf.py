@@ -62,9 +62,6 @@ rst_prolog = """
 """
 html_theme = 'sphinx_rtd_theme'
 
-html_theme_options = {
-    'style_nav_header_background': 'green',
-}
 html_logo = 'BeeFi_Logo.png'
 html_favicon = "https://www.beefi.io/images/logo.png"
 master_doc = 'index'
