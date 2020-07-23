@@ -77,6 +77,20 @@ Date       Version Description
 1 Command Description
 ======================
 
+.. code-block:: python
+    html_favicon = 'beefi_logo.png'
+    html_logo = 'beefi_logo.png'
+    
+.. note:: 
+Some note content
+Continue of note
+-Note 1
+-Note 2
+
+.. important::
+Some important content
+Continue of the important content
+
 .. raw:: html
 
     <font color="blue">Blue word,</font>
